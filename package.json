@@ -1,5 +1,5 @@
 {
-  "name": "the-dogs-molochs",
+  "name": "alexdao",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,8 @@
     "vue": "^2.6.10",
     "vue-moment": "^4.0.0",
     "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "svgo": "1.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",

@@ -8,9 +8,8 @@ PACKAGE_VERSION=$(cat package.json \
   | sed 's/[",]//g' \
   | tr -d '[[:space:]]')
 
-npm run build;
+npm run build
 
 echo "Deploying version $PACKAGE_VERSION to PRODUCTION"
-firebase use the-dogs-molochs;
-firebase deploy --only hosting:the-dogs-molochs;
-
+firebase use alex-dao-ui
+firebase deploy --only hosting:alex-dao-ui
